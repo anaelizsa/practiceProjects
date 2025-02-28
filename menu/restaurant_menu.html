@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yummy Space Menu</title>
+    <style>
+        html{
+            background-color: black;
+            margin: 5%;
+        }
+        header {
+            text-align: center;
+            background-color: black;
+        }
+        h1{
+            color: rgb(37, 0, 139);
+        }
+        #header-img {
+            width: 150px;
+            height: 150px;
+        }
+        li {
+            display: inline-block;
+            color: rgb(165, 213, 255);
+            margin-right: 20px;
+        }
+        .italicas {
+            font-style: italic;
+        }
+        #menu{
+            text-align: center;
+            background: radial-gradient( white, aquamarine, rgb(0, 119, 255))
+        }
+        .food {
+            width: 200px;
+            height: 200px;
+        }
+
+        #order-form  h2 {
+            color: white;
+        }
+        #order-form h3 {
+            color: white;
+        }
+
+        footer {
+            text-align: center;
+        }
+        footer p {
+            color: white;
+            
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img id="header-img" src="https://t3.ftcdn.net/jpg/05/08/02/74/360_F_508027415_4QUICcSCBjIkykkZPVFrsF5gaVEuYvmB.jpg" alt="An alien">
+        <h1>YUMMY SPACE</h1>
+        <nav>
+            <ul id="list">
+                <li><h4><a href="#menu">MENU</a></h4></li> 
+                <li><h4><a href="#order-form">ORDER FORM></a></h4></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="menu">
+            <br>
+            <h2>Menu</h2>
+            <article>
+                <img class="food" src="https://cdnb.artstation.com/p/assets/images/images/071/074/641/large/rebecca-martin-concept.jpg?1704383123" alt="hamburger">
+                <h3>OCTOHAMBURGER</h3>
+                <p class="italicas">Delicious hamburger with octopus base, lettuce, mucus cheese and onions</p>
+            </article>
+            <article>
+                <img class="food" src="https://img.lovepik.com/png/20231118/cartoon-of-octopus-in-a-bowl-of-soup-clipart-vector_631120_wh860.png" alt="soup">
+                <h3>JucyPankreas</h3>
+                <p class="italicas"> Very warm pankreas soup, with tentacles and skin</p>
+            </article>
+            <article>
+                <img class="food" src="https://static.vecteezy.com/system/resources/previews/010/822/909/non_2x/space-pizza-illustration-free-vector.jpg" alt="pizza">
+                <h3>SpacyPizza</h3>
+                <p class="italicas">Exquicite pizza made out of alien cheese and bloody tomato sauce </p>
+            </article>
+            <article>
+                <img class="food" src="https://creator.nightcafe.studio/jobs/3zD7n3QF0gTplkA00Fdg/3zD7n3QF0gTplkA00Fdg--1--4e4zo.jpg" alt="cake">
+                <h3>KingCake</h3>
+                <p class="italicas">Very sweet brain cake, with bone cream and liver jam</p>
+            </article>
+            <br>
+        </section>
+        <section id="order-form">
+            <h2>Place Your Order</h2>
+            <form>
+                <label style="color: white;">Select your order! <input type="number" min="0" max="4"></label>
+                <br><br>
+                <h3>Choose your sidedish</h3>
+                <label style="color: aqua;"><input type="checkbox">Filament Fries</label><br>
+                <label style="color: aqua;"><input type="checkbox">Honey eyes</label><br>
+                <label style="color: aqua;"><input type="checkbox">Nails and toenails chips</label><br>
+                <br>
+                <h3>Special requests:</h3>
+                <textarea rows="7" cols="42" placeholder="Tell us your special requests here!"></textarea>
+                <br><br>
+                <input style="background-color: aqua;" type="submit" value="Go To Checkout">
+            </form>
+        </section>
+    </main>
+    <br>
+    <footer>
+        <p>Made with love by the YUMMY SPACE team and Aureus!</p>
+    </footer>
+</body>
+</html>
