@@ -1,0 +1,144 @@
+html {
+    margin: 1%;
+    background-color:black;
+    box-sizing: border-box;
+
+}
+
+header {
+    background-color: black;
+}
+
+#headline{
+    text-align: center;
+    border: 30px solid aqua;
+    margin: 20px;
+    border-radius: 50px;
+}
+
+h1 {
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    color: aquamarine;
+}
+
+#navsection {
+    text-align: center;
+    border: 10px solid yellow;
+    background-color: black;
+    position: fixed;
+    top: 27%;
+    margin: 1px;
+    border-radius: 50px;
+    
+}
+.navlink{
+    padding: 10px;
+    display: block;
+    color: aqua;
+}
+
+.image-container{
+    text-align: center;
+}
+
+.profile-image{
+    height: 40%;
+    width: 40%;
+    border: 20px solid purple;
+    border-radius: 100px;
+}
+
+.project-image {
+    height: 20%;
+    width: 20%;
+    padding: 20px;
+}
+
+#about{
+    text-align: end;
+    border: 20px solid navy;
+    border-radius: 50px;
+    padding: 10px;
+    margin: 20px;
+}
+
+#about > h2 {
+    font-style: italic;
+    font-size: 200%;
+    color: royalblue;
+}
+
+#about > p {
+    font-family: 'Courier New', Courier, monospace;
+    color: aliceblue;
+}
+
+#projects {
+    margin: 20px;
+    border: 20px solid deeppink;
+    border-radius: 50px;
+    padding: 10px;
+}
+
+.projects-container > h2 {
+    color: darkmagenta;
+    font-style: italic;
+}
+
+.project-info > h3 {
+    font-family: 'Courier New', Courier, monospace;
+    color:fuchsia
+}
+
+.project-info > p {
+    font-family: 'Courier New', Courier, monospace;
+    color: aliceblue;
+}
+
+.project-link {
+    color: plum;
+    padding: 10px;
+}
+
+#contact{
+    margin: 20px;
+    border: 20px solid lawngreen;
+    border-radius: 50px;
+    padding: 10px;
+}
+
+.contact-container > h2{
+    color:darkgreen;
+    font-style: italic;
+}
+
+.contact-container > p {
+    font-family: 'Courier New', Courier, monospace;
+    color:aliceblue
+}
+
+form > label { 
+    font-family: 'Courier New', Courier, monospace;
+    color:chartreuse;
+}
+
+button {
+    background-color: lime;
+}
+
+footer {
+    background-color: black;
+}
+
+.social-links{
+    margin: 20px;
+    border: 20px solid crimson;
+    border-radius: 50px;
+    text-align: center;
+    padding: 30px;
+}
+.social-links > a {
+    color: red;
+    padding: 5%;
+}
